@@ -419,6 +419,7 @@
 			"name": "🥇金牌影视",
 			"type": 3,
 			"api": "csp_JinPai",
+			"searchTop": true,
 			"searchable": 1,
 			"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/WoKee/testFile/main/jar/local.jar",
 			"quickSearch": 1,
