@@ -23,7 +23,7 @@
     [
         {
             "sourceName": "绿茶在线仓库",
-            "sourceUrl": "./99.json"
+            "sourceUrl": "http://127.0.0.1:9978/file/TVBox/lib/99.json"
         },
         {
             "sourceName": "可视本地仓库",

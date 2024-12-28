@@ -24,7 +24,7 @@
     "storeHouse":
     [{
             "sourceName": "绿茶在线仓库",
-            "sourceUrl": "./99.json",
+            "sourceUrl": "http://127.0.0.1:9978/file/TVBox/lib/99.json",
             "parse": "{\"danma\": true,\"danma_colors\": [\"#FF0000\",\"#0000FF\",\"#800080\",\"#FFFFFF\",\"#FF7F00\",\"#FFFF00\",\"#00FF00\"]}"
         }, {
             "sourceName": "无忧在线仓库",
