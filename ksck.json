@@ -22,16 +22,15 @@
     "storeHouse":
     [
         {
-            "sourceName": "绿茶在线仓库",
-            "sourceUrl": "http://127.0.0.1:9978/file/TVBox/lib/99.json"
-        },
-        {
             "sourceName": "可视本地仓库",
             "sourceUrl": "./本地仓库.json"
         }, {
             "sourceName": "云星在线仓库",
             "sourceUrl": "./zx.json"
+        },
+        {
+            "sourceName": "绿茶在线仓库",
+            "sourceUrl": "http://127.0.0.1:9978/file/TVBox/lib/99.json"
         }
-
     ]
 }
