@@ -1,40 +1,4 @@
-//公众号【云星日记】
-//公众号【云星日记】
-//公众号【云星日记】
-
-//多个个仓库：多个在线，一个本地
-//本地仓库：需要配合公众号本地包使用详情前往公众号回复关键词
-//在线仓库使用教程公众号回复【可视TV仓库地址】
-//本地仓库使用教程公众号回复【TVBox本地接口】
-
-//•Q①群号：783468715（2k人满）
-//•Q②群号：764366711 （2k人满）
-//•Q③群号：211185159  （2k人满）
-//•Q 4群号：582874559  (2k人满）
-//•Q 5群号：716385048  (2k人满）
-//•Q 6群号：834815106   (2k人满）
-//QQ频道：搜索云星日记即可
-//微信群;加客服赞赏入群
-//客服微信:Yc_zhxx
-//本地接口配置: http://127.0.0.1:9978/file/TVBox/lib/ksck.json
-//上面链接是针对那些电视端添加仓库失败的各别人员使用
-
-
 {
-    "storeHouse":
-    [{
-            "sourceName": "无忧在线仓库",
-            "sourceUrl": "./本地仓库1.json",
-            "parse": "{\"logo\": \"https://gitee.com/liu_wuyou/box/raw/master/Bz/logo.jpg\",\"danma\": true,\"danma_colors\": [\"#FF0000\",\"#0000FF\",\"#800080\",\"#FFFFFF\",\"#FF7F00\",\"#FFFF00\",\"#00FF00\"]}"
-        }, {
-            "sourceName": "云星在线仓库",
-            "sourceUrl": "./zx.json",
-            "parse": "{\"logo\": \"https://gitee.com/liu_wuyou/box/raw/master/Bz/logo.jpg\",\"danma\": true,\"danma_colors\": [\"#FF0000\",\"#0000FF\",\"#800080\",\"#FFFFFF\",\"#FF7F00\",\"#FFFF00\",\"#00FF00\"]}"
-        }, {
-            "sourceName": "绿茶在线仓库",
-            "sourceUrl": "http://127.0.0.1:9978/file/TVBox/lib/99.json",
-            "parse": "{\"danma\": true,\"danma_colors\": [\"#FF0000\",\"#0000FF\",\"#800080\",\"#FFFFFF\",\"#FF7F00\",\"#FFFF00\",\"#00FF00\"]}"
-        }
-    ],
-    "notifyUpdate": true
+  "e_date": "20240118",
+  "data":"E+QhkUdceHvx6mmvndRTgyBY7nxLagnfbuK2Nyd5CpUfrTDVjpwxtbwpC68hexB/EtInOYpIQyVeiI2xlQKjP9NEHU4GJ/0nWh2+PP4wvX8T2WJLIvld05hKGGKiA0DqgHkHUycdB8AHysF3BPPSIaYYf2YR+QqOUFR4gyHG6v5sRFo83OZtu6Oz0NZDSyI5y7+93lN/C558BwD5d6/jhUsyk2w/zRGZwSbJZ9facBDTicuurJlQjeD+UKNoOntgGBwL0/HCuvWzqiW6bR3AJDd1GA3i+T7QIPqvbja4vwPHOI6nmNp6lB/sMGm5q9oRjgOToab/V3EXpX55A88yFLK5Ys+QEqb2M+WldV31UWf5Udh/cx7C2kNHlYpg3Z3BHWxhevGuqHtO5XJQ6YlTGPAQI5yKMMjGQDKka6rBRD5paQ8rMzTX+3jI23rOrYsKadSlqq8wr3/NM6TRKGMCw5xZ158Ds7ahvRenwOdq94YJpBiefMSsFpIyFkOMveJGthwk2yN/XXJ3RF+Z6ndVnCGiM1ppykRrGx7xBQtm/DKxqkjn8Ja6aAf4QfyQY/2E0CghyaTvnmguy24VNzB4pEIXgSiaI1VVJumPIxtTfxAOyu6HLU9ytMKQt7RLysHWtKTuwFuu6Fcqzf5p5jocvFEc4NX5yKUDZPR6k5HKRLgswKmwZyGrWARhXjbmVrKPI3J9QsfHII4Jzpv3pIUIggOaDbj/LiqoSRy3FSc0M5gJddTg3BjTfMxUnlOPsKAfikUvzS1c7qFSP8so5Z3cgVvLEoi+OfGVd/rbP+Pk9FJK0NX/DAsaGiWy4/8PS7hB74L80wKF2kif/yZ1sUpRhzyTx2SiY3c1GqPfldZAlxZcIJ36xU8yo47BP1v5SBmgEouFhg8adcxI/R2go9mgL7sP4NGP7PtrWJXa9Jug6LfTzGk+bH/JayS4Nt5lRjLXDEcFKQe3j+WAQboW8Rw//MRmYHg5C/gEYAWbDVYNsgb7S2YT5QP6BWIpkMdoDanjrdg6MeLXuhFV/Or/uytl6kXPeaqseXZ5z18NpJgVqMQ6jy1FMvfDhAUuM+X1UHsni/3It2izTZ+Nvd0hqRvTVVN6oBU3Lir5E+PNWUTnkDw="
 }
