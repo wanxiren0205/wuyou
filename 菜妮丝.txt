@@ -4,26 +4,26 @@
     "logo": "https://q2.qlogo.cn/headimg_dl?dst_uin=524187805&spec=100",
     "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
     "sites": [{
-            "key": "豆瓣",
+            "key": "drpy",
             "name": "豆瓣┃推荐",
             "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": "https://tv.菜妮丝.top/json/douban.json",
-            "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+            "api": "./JS/lib/drpy.min.js",
+            "ext": "./JS/js/drpy.js"
         }, {
             "key": "玩偶",
             "name": "玩偶┃云盘",
             "type": 3,
-            "api": "csp_Wogg",
+            "api": "csp_WoGG",
             "searchable": 1,
+            "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "token": "影視天下第一",
-                "filter": "https://tv.菜妮丝.top/json/wogg.json"
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto",
+                "siteUrl": "https://www.wogg.net/",
+                "danMu": "弹"
             },
-            "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+            "jar": "./jar/fm.jar"
         }, {
             "key": "荐片",
             "name": "荐片┃P2P",
@@ -34,14 +34,16 @@
             "ext": "https://tv.菜妮丝.top/json/jianpian.json",
             "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
         }, {
-            "key": "短剧天堂",
-            "name": "🌈上头┃短剧",
+            "key": "zxzj",
+            "name": "在线┃秒播",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_Zxzj",
+            "timeout": 15,
             "searchable": 1,
+            "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://tv.菜妮丝.top/json/XBPQ/短剧天堂.json",
-            "jar": "https://tv.菜妮丝.top/jar/XBPQ.jar;md5;c156ba7ce636a59c744e9a72bd5a8423"
+            "ext": "https://www.zxzjhd.com/",
+            "jar": "./jar/fm.jar"
         }, {
             "key": "新6V",
             "name": "新6V┃磁力",
@@ -111,62 +113,123 @@
             "changeable": 0,
             "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
         }, {
-            "key": "七夜",
-            "name": "七夜┃云盘",
+            "key": "UC",
+            "name": "优汐┃搜搜",
             "type": 3,
-            "api": "csp_Dovx",
+            "api": "csp_UuSs",
             "searchable": 1,
+            "quickSearch": 1,
             "changeable": 0,
-            "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "./jar/fm.jar"
         }, {
-            "key": "易搜",
-            "name": "易搜┃云盘",
+            "key": "Q搜",
+            "name": "QQ┃搜索",
             "type": 3,
-            "api": "csp_YiSo",
+            "api": "csp_KkSs",
             "searchable": 1,
+            "quickSearch": 1,
             "changeable": 0,
-            "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "./jar/fm.jar"
         }, {
-            "key": "云搜",
-            "name": "云搜┃云盘",
+            "key": "米搜",
+            "name": "米搜┃搜索",
             "type": 3,
-            "api": "csp_UpYun",
+            "api": "csp_MIPanSo",
             "searchable": 1,
+            "quickSearch": 1,
             "changeable": 0,
-            "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "./jar/fm.jar"
         }, {
-            "key": "盘搜",
-            "name": "盘搜┃云盘",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "changeable": 0,
-            "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
-        }, {
-            "key": "紙條搜",
-            "name": "紙條┃云盘",
-            "type": 3,
-            "api": "csp_XiaoZhiTiao",
-            "searchable": 1,
-            "changeable": 0,
-            "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
-        }, {
-            "key": "盘搜索",
-            "name": "盘搜索┃云盘",
+            "key": "夸搜",
+            "name": "夸搜┃搜索",
             "type": 3,
             "api": "csp_PanSearch",
             "searchable": 1,
+            "quickSearch": 1,
             "changeable": 0,
-            "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+            "ext": {
+                "pan": "quark",
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "./jar/fm.jar"
         }, {
-            "key": "找資源",
-            "name": "找資源┃云盘",
+            "key": "Aliso",
+            "name": "盘搜┃阿狸",
             "type": 3,
-            "api": "csp_Zhaozy",
+            "api": "csp_PanSearch",
             "searchable": 1,
+            "quickSearch": 1,
             "changeable": 0,
-            "ext": "影視天下第一$$$test2$$$test2",
-            "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "./jar/fm.jar"
+        }, {
+            "key": "YiSo",
+            "name": "易搜┃阿狸",
+            "type": 3,
+            "api": "csp_YiSo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "./jar/fm.jar"
+        }, {
+            "key": "PanSso",
+            "name": "盘他┃三盘",
+            "type": 3,
+            "api": "csp_PanSso",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "./jar/fm.jar"
+        }, {
+            "key": "YpanSo",
+            "name": "盘她┃三盘",
+            "type": 3,
+            "api": "csp_YpanSo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "./jar/fm.jar"
+        }, {
+            "key": "xzso",
+            "name": "盘它┃三盘",
+            "type": 3,
+            "api": "csp_xzso",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "./jar/fm.jar"
         }, {
             "key": "FirstAid",
             "name": "🚑急救┃教学",
@@ -180,31 +243,18 @@
             },
             "jar": "https://tv.菜妮丝.top/jar/fm0918.jar;md5;41c87635d7592069884a5dafa12acabe"
         }, {
-            "key": "酷看",
-            "name": "酷看┃影视",
-            "type": 3,
-            "api": "csp_Kkys",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 15
-        }, {
             "key": "Lib",
-            "name": "立播┃影视",
+            "name": "立播┃秒播",
             "type": 3,
             "api": "csp_Libvio",
             "searchable": 1,
+            "quickSearch": 1,
             "changeable": 1,
             "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "from": "4k|auto"
-            }
-        }, {
-            "key": "小点",
-            "name": "小点┃影视",
-            "type": 3,
-            "api": "csp_Appxdys",
-            "searchable": 1,
-            "changeable": 1
+            },
+            "jar": "./jar/fm.jar"
         }, {
             "key": "苹果",
             "name": "苹果┃影视",
@@ -236,14 +286,6 @@
             "searchable": 1,
             "changeable": 1
         }, {
-            "key": "可可",
-            "name": "可可┃影视",
-            "type": 3,
-            "api": "csp_Kekys",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 15
-        }, {
             "key": "热播",
             "name": "热播┃影视",
             "type": 3,
@@ -261,32 +303,19 @@
             "changeable": 1,
             "timeout": 15,
             "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
-        }, {
-            "key": "南瓜",
-            "name": "南瓜┃影视",
-            "type": 3,
-            "api": "csp_NanGua",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 15
-        }, {
-            "key": "Anime1",
-            "name": "日本┃动漫",
-            "type": 3,
-            "api": "csp_Anime1",
-            "searchable": 1,
-            "changeable": 1
-        }, {
-            "key": "88js",
+        },
+        //{"key": "926看球","name": "⚽926┃看球","type": 3,"api": "csp_kanqiu926","searchable": 0,"changeable": 0,"style": {"type": "list"},"jar":"http://127.0.0.1:9978/file/TVBox/jar/fm.jar"},
+        {
+            "key": "88看球",
             "name": "⚽88┃看球",
             "type": 3,
-            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "api": "csp_Sir88",
             "searchable": 0,
             "changeable": 0,
             "style": {
                 "type": "list"
             },
-            "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/88看球.js"
+            "jar": "./jar/fm.jar"
         }, {
             "key": "Jrsjs",
             "name": "⚽Jrs┃球迷",
@@ -334,59 +363,30 @@
             },
             "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
         }, {
-            "key": "csp_Yj1211",
-            "name": "📽️网红┃直播",
-            "type": 3,
-            "api": "csp_Yj1211",
-            "searchable": 0,
-            "changeable": 0
-        }, {
             "key": "虎牙直播js",
-            "name": "🐯虎牙┃直播",
+            "name": "🅱️哔哩┃直播",
             "type": 3,
-            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "api": "./JS/lib/drpy2.min.js",
             "searchable": 0,
             "changeable": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.755
             },
-            "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js"
+            "ext": "./JS/js/哔哩直播.js"
         }, {
-            "key": "斗鱼js",
-            "name": "🐟斗鱼┃直播",
+            "key": "有声小说js",
+            "name": "🎧有声┃小说",
             "type": 3,
-            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-            "searchable": 0,
-            "changeable": 0,
+            "api": "./JS/lib/drpy2.min.js",
+            "ext": "./JS/js/有声小说吧.js",
             "style": {
                 "type": "rect",
-                "ratio": 1.755
+                "ratio": 1
             },
-            "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js"
-        }, {
-            "key": "米搜",
-            "name": "米搜┃云盘",
-            "type": 3,
-            "api": "csp_MIPanSo",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        }, {
-            "key": "夸搜",
-            "name": "夸搜┃云盘",
-            "type": 3,
-            "api": "csp_PanSearch",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "pan": "quark",
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
         }, {
             "key": "Bili",
             "name": "🅱哔哔┃合集",
@@ -484,13 +484,6 @@
             "name": "非凡┃影视",
             "type": 1,
             "api": "http://cj.ffzyapi.com/api.php/provide/vod",
-            "searchable": 1,
-            "changeable": 1
-        }, {
-            "key": "雨落",
-            "name": "雨落┃影视",
-            "type": 1,
-            "api": "http://dsakf23665.com/api.php/provide/vod",
             "searchable": 1,
             "changeable": 1
         }, {

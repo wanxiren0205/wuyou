@@ -131,7 +131,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "clan://TVBox/jar/alitoken.txt"
+			"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 		},
 		{
 			"key": "csp_Zhaozy",
@@ -142,7 +142,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0,
-			"ext": "clan://TVBox/jar/alitoken.txt"
+			"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 		},
 		{
 			"key": "csp_AliPS",
@@ -153,7 +153,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0,
-			"ext": "clan://TVBox/jar/alitoken.txt"
+			"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 		},
 		{
 			"key": "csp_Yisou",
@@ -164,7 +164,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0,
-			"ext": "clan://TVBox/jar/alitoken.txt"
+			"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 		},
 		{
 			"key": "csp_Upyunso",
@@ -175,7 +175,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0,
-			"ext": "clan://TVBox/jar/alitoken.txt"
+			"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 		},
 		{
 			"key": "csp_XYQHikerAL_玩偶哥哥",
@@ -186,7 +186,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/玩偶哥哥.json"
+			"ext": "./Hk/XYQHiker/玩偶哥哥.json"
 		},
 		{
 			"key": "csp_XYQHikerAL_云盘资源",
@@ -197,7 +197,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/云盘资源分享.json"
+			"ext": "./Hk/XYQHiker/云盘资源分享.json"
 		},
 		{
 			"key": "csp_XYQHikerAL_我的小站",
@@ -208,7 +208,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/我的小站.json"
+			"ext": "./Hk/XYQHiker/我的小站.json"
 		},
 		{
 			"key": "csp_XYQHikerAL_阿里云盘网",
@@ -219,7 +219,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/阿里云盘网.json"
+			"ext": "./Hk/XYQHiker/阿里云盘网.json"
 		},
 		{
 			"key": "csp_XYQHikerAL_豆豆飞",
@@ -230,7 +230,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/豆豆飞.json"
+			"ext": "./Hk/XYQHiker/豆豆飞.json"
 		},
 		{
 			"key": "csp_XYQHiker_土拨鼠搜索",
@@ -241,7 +241,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/土拨鼠搜索.json"
+			"ext": "./Hk/XYQHiker/土拨鼠搜索.json"
 		},
 		{
 			"key": "csp_XYQHiker_DOVX搜索",
@@ -252,7 +252,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/DOVX搜索.json"
+			"ext": "./Hk/XYQHiker/DOVX搜索.json"
 		},
 		{
 			"key": "csp_XYQHiker_盘搜索",
@@ -263,7 +263,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/盘搜索.json"
+			"ext": "./Hk/XYQHiker/盘搜索.json"
 		},
 		{
 			"key": "csp_XYQBiu_云盘分享",
@@ -285,8 +285,8 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "clan://TVBox/HK/XYQHiker/橘子盘搜.json",
-			"jar": "clan://TVBox/Hk/Hk.jar"
+			"ext": "./HK/XYQHiker/橘子盘搜.json",
+			"jar": "./Hk/Hk.jar"
 		},
 		{
 			"key": "push_agent",
@@ -297,7 +297,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0,
-			"ext": "clan://TVBox/jar/alitoken.txt"
+			"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 		},
 		{
 			"key": "360_spider",
@@ -500,7 +500,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/兔小贝.json"
+			"ext": "./Hk/XYQHiker/兔小贝.json"
 		},
 		{
 			"key": "csp_XYQHiker_兔小贝2",
@@ -510,7 +510,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/兔小贝2.json"
+			"ext": "./Hk/XYQHiker/兔小贝2.json"
 		},
 		{
 			"key": "csp_XYQHiker_播视童趣",
@@ -520,7 +520,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/播视童趣.json"
+			"ext": "./Hk/XYQHiker/播视童趣.json"
 		},
 		{
 			"key": "csp_XYQHiker_有声小说吧",
@@ -530,7 +530,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/有声小说吧.json"
+			"ext": "./Hk/XYQHiker/有声小说吧.json"
 		},
 		{
 			"key": "csp_XYQHiker_DJ呦呦音乐网",
@@ -540,7 +540,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/DJ呦呦音乐网.json"
+			"ext": "./Hk/XYQHiker/DJ呦呦音乐网.json"
 		},
 		{
 			"key": "csp_XYQHiker_MV263",
@@ -550,7 +550,7 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"filterable": 1,
-			"ext": "./XYQHiker/MV263.json"
+			"ext": "./Hk/XYQHiker/MV263.json"
 		},
 		{
 			"key": "csp_XYQHiker_酷奇MV",
@@ -560,7 +560,7 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"filterable": 1,
-			"ext": "./XYQHiker/酷奇MV.json"
+			"ext": "./Hk/XYQHiker/酷奇MV.json"
 		},
 		{
 			"key": "csp_XYQHiker_量子影视",
@@ -570,7 +570,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/量子影视.json"
+			"ext": "./Hk/XYQHiker/量子影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_红领巾影院",
@@ -580,7 +580,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/红领巾影院.json"
+			"ext": "./Hk/XYQHiker/红领巾影院.json"
 		},
 		{
 			"key": "csp_XYQHiker_小猫咪",
@@ -590,7 +590,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/小猫咪.json"
+			"ext": "./Hk/XYQHiker/小猫咪.json"
 		},
 		{
 			"key": "csp_XYQHiker_55影视",
@@ -600,7 +600,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/55影视.json"
+			"ext": "./Hk/XYQHiker/55影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_臭蛋蛋影视",
@@ -610,7 +610,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/臭蛋蛋影视.json"
+			"ext": "./Hk/XYQHiker/臭蛋蛋影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_农民影视",
@@ -620,7 +620,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/农民影视.json"
+			"ext": "./Hk/XYQHiker/农民影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_奇趣影视",
@@ -630,7 +630,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/奇趣影视.json"
+			"ext": "./Hk/XYQHiker/奇趣影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_乐鱼影视",
@@ -640,7 +640,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/乐鱼影视.json"
+			"ext": "./Hk/XYQHiker/乐鱼影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_歪片星球",
@@ -650,7 +650,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/歪片星球.json"
+			"ext": "./Hk/XYQHiker/歪片星球.json"
 		},
 		{
 			"key": "csp_XYQHiker_348电影网",
@@ -660,7 +660,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/348电影网.json"
+			"ext": "./Hk/XYQHiker/348电影网.json"
 		},
 		{
 			"key": "csp_XYQHiker_七新影视",
@@ -670,7 +670,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/七新影视.json"
+			"ext": "./Hk/XYQHiker/七新影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_深蓝影视",
@@ -680,7 +680,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/深蓝影视.json"
+			"ext": "./Hk/XYQHiker/深蓝影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_达达龟",
@@ -690,7 +690,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/达达龟.json"
+			"ext": "./Hk/XYQHiker/达达龟.json"
 		},
 		{
 			"key": "csp_XYQHiker_兄弟影视",
@@ -700,7 +700,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/兄弟影视.json"
+			"ext": "./Hk/XYQHiker/兄弟影视.json"
 		},
 		{
 			"key": "csp_XYQHikerAL_4KHDR",
@@ -711,7 +711,7 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"filterable": 1,
-			"ext": "./XYQHiker/4KHDR.json"
+			"ext": "./Hk/XYQHiker/4KHDR.json"
 		},
 		{
 			"key": "csp_XYQHiker_电影港",
@@ -721,7 +721,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/电影港磁力.json"
+			"ext": "./Hk/XYQHiker/电影港磁力.json"
 		},
 		{
 			"key": "csp_XYQHiker_干饭影视",
@@ -731,7 +731,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/干饭影视.json"
+			"ext": "./Hk/XYQHiker/干饭影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_看一看影视",
@@ -741,7 +741,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/看一看影视.json"
+			"ext": "./Hk/XYQHiker/看一看影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_秋霞电影",
@@ -751,7 +751,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/秋霞电影.json"
+			"ext": "./Hk/XYQHiker/秋霞电影.json"
 		},
 		{
 			"key": "csp_XYQHiker_秋霞电影网",
@@ -761,7 +761,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/秋霞电影网.json"
+			"ext": "./Hk/XYQHiker/秋霞电影网.json"
 		},
 		{
 			"key": "csp_XYQHiker_乐猪影视",
@@ -771,7 +771,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/乐猪TV.json"
+			"ext": "./Hk/XYQHiker/乐猪TV.json"
 		},
 		{
 			"key": "csp_XYQHiker_在线之家",
@@ -781,7 +781,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/在线之家.json"
+			"ext": "./Hk/XYQHiker/在线之家.json"
 		},
 		{
 			"key": "csp_XYQHiker_voflixHD",
@@ -791,7 +791,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/voflix HD.json"
+			"ext": "./Hk/XYQHiker/voflix HD.json"
 		},
 		{
 			"key": "csp_XYQHiker_奈飞中文",
@@ -801,7 +801,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/奈飞中文.json"
+			"ext": "./Hk/XYQHiker/奈飞中文.json"
 		},
 		{
 			"key": "csp_XYQHiker_鸭奈飞影视",
@@ -811,7 +811,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/鸭奈飞影视.json"
+			"ext": "./Hk/XYQHiker/鸭奈飞影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_蓝光影院",
@@ -821,7 +821,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/蓝光影院.json"
+			"ext": "./Hk/XYQHiker/蓝光影院.json"
 		},
 		{
 			"key": "csp_XYQHiker_影视工场",
@@ -831,7 +831,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/影视工场.json"
+			"ext": "./Hk/XYQHiker/影视工场.json"
 		},
 		{
 			"key": "csp_XYQHiker_影渣渣影视",
@@ -841,7 +841,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/影渣渣影视.json"
+			"ext": "./Hk/XYQHiker/影渣渣影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_电影牛影院",
@@ -851,7 +851,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/电影牛影院.json"
+			"ext": "./Hk/XYQHiker/电影牛影院.json"
 		},
 		{
 			"key": "csp_XYQHiker_电影盒子",
@@ -862,7 +862,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/电影盒子.json"
+			"ext": "./Hk/XYQHiker/电影盒子.json"
 		},
 		{
 			"key": "csp_XYQHiker_耐看点播",
@@ -872,7 +872,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/耐看点播.json"
+			"ext": "./Hk/XYQHiker/耐看点播.json"
 		},
 		{
 			"key": "csp_XYQHiker_速搜影院",
@@ -882,7 +882,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/速搜影院.json"
+			"ext": "./Hk/XYQHiker/速搜影院.json"
 		},
 		{
 			"key": "csp_XYQHiker_疯狗影视",
@@ -892,7 +892,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/疯狗影视.json"
+			"ext": "./Hk/XYQHiker/疯狗影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_爱看影院",
@@ -902,7 +902,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/爱看影院.json"
+			"ext": "./Hk/XYQHiker/爱看影院.json"
 		},
 		{
 			"key": "csp_XYQHiker_爱看影视",
@@ -912,7 +912,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/爱看影视.json"
+			"ext": "./Hk/XYQHiker/爱看影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_異世界動漫",
@@ -922,7 +922,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/異世界動漫.json"
+			"ext": "./Hk/XYQHiker/異世界動漫.json"
 		},
 		{
 			"key": "csp_XYQHiker_子子影视",
@@ -932,7 +932,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/子子影视.json"
+			"ext": "./Hk/XYQHiker/子子影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_素白白影视",
@@ -943,7 +943,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/素白白影视.json"
+			"ext": "./Hk/XYQHiker/素白白影视.json"
 		},
 		{
 			"key": "csp_XYQHiker_COKEMV影院",
@@ -954,7 +954,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/COKEMV影院.json"
+			"ext": "./Hk/XYQHiker/COKEMV影院.json"
 		},
 		{
 			"key": "csp_XYQHiker_MayiTube",
@@ -964,7 +964,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/MayiTube.json"
+			"ext": "./Hk/XYQHiker/MayiTube.json"
 		},
 		{
 			"key": "csp_XYQHiker_Vidhub视频库",
@@ -974,7 +974,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/Vidhub视频库.json"
+			"ext": "./Hk/XYQHiker/Vidhub视频库.json"
 		},
 		{
 			"key": "csp_XYQHiker_宝仙HD",
@@ -984,7 +984,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/宝仙HD.json"
+			"ext": "./Hk/XYQHiker/宝仙HD.json"
 		},
 		{
 			"key": "csp_XYQHiker_l0l影院",
@@ -994,7 +994,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/l0l影院.json"
+			"ext": "./Hk/XYQHiker/l0l影院.json"
 		},
 		{
 			"key": "csp_XYQHiker_锐行加速影院",
@@ -1004,7 +1004,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./XYQHiker/锐行加速影院.json"
+			"ext": "./Hk/XYQHiker/锐行加速影院.json"
 		},
 		{
 			"key": "csp_XYQBiu_88看球",
@@ -1031,7 +1031,7 @@
 			"name": "虎牙直播",
 			"type": 3,
 			"api": "clan://TVBox/JS/lib/drpy2.min.js",
-			"ext": "clan://TVBox/JS/js/虎牙直播.js",
+			"ext": "./JS/js/虎牙直播.js",
 			"searchable": 0,
 			"quickSearch": 0,
 			"filterable": 0
@@ -1044,7 +1044,7 @@
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 0,
-			"ext": "./XYQHiker/虎牙直播.json"
+			"ext": "./Hk/XYQHiker/虎牙直播.json"
 		},
 		{
 			"key": "csp_XYQHiker_斗鱼直播",
@@ -1054,7 +1054,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0,
-			"ext": "./XYQHiker/斗鱼直播.json"
+			"ext": "./Hk/XYQHiker/斗鱼直播.json"
 		},
 		{
 			"key": "csp_XYQBiu_网易CC直播",

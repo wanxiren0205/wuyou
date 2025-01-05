@@ -113,7 +113,7 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
 			},
 			"jar": "./jar/fm.jar"

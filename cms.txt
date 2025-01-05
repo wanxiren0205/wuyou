@@ -12,33 +12,6 @@
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
-			"name": "爽翻天",
-			"type": 0,
-			"url": "aHR0cHM6Ly9teTUzNTMuY29tL3Y2emJ5",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "安卓哥",
-			"type": 0,
-			"url": "aHR0cHM6Ly/lronljZPlk6UuY29tL1pC",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "春盈",
-			"type": 0,
-			"url": "aHR0cHM6Ly9teTUzNTMuY29tL2NodW55aW5n",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
 			"name": "肥羊",
 			"type": 0,
 			"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/joevess/IPTV/main/iptv.m3u8",
@@ -55,69 +28,6 @@
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "天微",
-			"type": 0,
-			"url": "aHR0cDovL3R2a2oudG9wL3R2bGl2ZS50eHQ=",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "龙TV",
-			"type": 0,
-			"url": "https://d.kstore.space/download/7337/%E9%BE%99TV/log",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "ipv6_8",
-			"type": 0,
-			"url": "https://pan.shangui.cc/f/B1gXcp/%E5%BF%AB%E4%B9%900131.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "沐雨",
-			"type": 0,
-			"url": "aHR0cDovL215d2xrai5kZG5zLm5ldDo4NjcvemIucGhw",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "恋影",
-			"type": 0,
-			"url": "aHR0cDovL2xpYW55aW5nLmZyZWUzdi53b3JrL2xpdmUuanNvbg==",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "Live",
-			"type": 0,
-			"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "运输车",
-			"type": 0,
-			"url": "https://weixine.net/tv/ysclive.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		}
 	],
 	"sites": [
@@ -125,38 +35,8 @@
 			"key": "豆瓣",
 			"name": "🌎影视推荐(首页)",
 			"type": 3,
-			"api": "http://127.0.0.1:9978/file/TVBox/JS/lib/drpy.min.js",
-			"ext": "http://127.0.0.1:9978/file/TVBox/JS/js/drpy.js"
-		},
-		{
-			"key": "暴风采集",
-			"name": "🌪️暴风影音",
-			"type": 1,
-			"api": "https://app.bfzyapi.com/api.php/provide/vod/",
-			"playUrl": "",
-			"categories": [
-				"国产剧",
-				"国产动漫",
-				"动作片",
-				"科幻片",
-				"剧情片",
-				"喜剧片",
-				"爱情片",
-				"恐怖片",
-				"战争片",
-				"香港剧",
-				"台湾剧",
-				"日本剧",
-				"欧美剧",
-				"泰国剧",
-				"日本动漫",
-				"综艺频道",
-				"大陆综艺",
-				"港台综艺",
-				"日本综艺",
-				"新马泰综艺",
-				"纪录片"
-			]
+			"api": "./JS/lib/drpy.min.js",
+			"ext": "./JS/js/drpy.js"
 		},
 		{
 			"key": "索尼",
@@ -188,76 +68,6 @@
 			]
 		},
 		{
-			"key": "黑木耳",
-			"name": "🪨黑木耳",
-			"type": 1,
-			"api": "https://www.heimuer.tv/api.php/provide/vod",
-			"playUrl": "https://player.heimuer.tv/index.html?url=",
-			"searchable": 1,
-			"changeable": 1,
-			"categories": [
-				"剧情",
-				"动作",
-				"冒险",
-				"同性",
-				"喜剧",
-				"奇幻",
-				"恐怖",
-				"悬疑",
-				"惊悚",
-				"灾难",
-				"爱情",
-				"犯罪",
-				"科幻",
-				"动画电影",
-				"歌舞",
-				"战争",
-				"经典",
-				"网络电影",
-				"国产剧",
-				"港剧",
-				"韩剧",
-				"日剧",
-				"泰剧",
-				"台剧",
-				"欧美剧",
-				"新马剧",
-				"其他剧",
-				"国产综艺",
-				"港台综艺",
-				"韩国综艺",
-				"日本综艺",
-				"欧美综艺",
-				"新马泰综艺",
-				"其他综艺",
-				"欧美",
-				"日本",
-				"韩国",
-				"国产",
-				"港台",
-				"古装",
-				"虐恋",
-				"逆袭",
-				"悬疑",
-				"神豪",
-				"重生",
-				"复仇",
-				"穿越",
-				"甜宠",
-				"强者"
-			]
-		},
-		{
-			"key": "淘片",
-			"name": "🏭┃淘片资源 ",
-			"type": 1,
-			"api": "https://taopianapi.com/cjapi/ct/vod/json.html",
-			"searchable": 1,
-			"changeable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
 			"key": "csp_xml_祥祥",
 			"name": "🍇祥祥采集",
 			"type": 1,
@@ -277,37 +87,6 @@
 			"name": "🍇牛牛资源",
 			"type": 1,
 			"api": "https://api.niuniuzy.me/api.php/provide/vod/?wd="
-		},
-		{
-			"key": "优质",
-			"name": "💎优质资源",
-			"type": 1,
-			"api": "https://api.1080zyku.com/inc/apijson.php/provide/vod/",
-			"searchable": 1,
-			"quickSearch": 1,
-			"categories": [
-				"短剧",
-				"国产剧",
-				"韩国剧",
-				"香港剧",
-				"台湾剧",
-				"欧美剧",
-				"动作片",
-				"科幻片",
-				"战争片",
-				"奇幻片",
-				"喜剧片",
-				"爱情片",
-				"恐怖片",
-				"犯罪片",
-				"悬疑片",
-				"惊悚片",
-				"剧情片",
-				"冒险片",
-				"记录片",
-				"综艺",
-				"动漫"
-			]
 		},
 		{
 			"key": "华为资源",
@@ -344,7 +123,7 @@
 				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#豆瓣电影Top250$42",
 				"分类url": "https://www.teknowebs.com/tevodshow/{cateId}-{area}-------{catePg}---{year}.html"
 			},
-			"jar": "https://pan.shangui.cc/f/LD61U3/xbpq%E6%96%B0%E7%89%88.jar"
+			"jar": "https://gitee.com/liu_wuyou/box/raw/master/jar/xbpq%E6%96%B0%E7%89%88.jar"
 		},
 		{
 			"key": "天天美剧网",
@@ -359,18 +138,6 @@
 			"type": 3,
 			"api": "csp_AppYsV2",
 			"ext": "https://www.tvkuys.xyz/api.php/app/"
-		},
-		{
-			"key": "yc",
-			"name": "🗃┃4KHDR",
-			"type": 3,
-			"playerType": 1,
-			"api": "csp_Hdhive",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"ext": "https://pan.shangui.cc/f/p5RUL/tk.php",
-			"jar": "https://jihulab.com/ymz1231/jar/-/raw/main/xry.jar"
 		},
 		{
 			"key": "酷酷",
@@ -520,42 +287,6 @@
 				"斯诺克",
 				"泰剧",
 				"预告片"
-			]
-		},
-		{
-			"key": "1080源",
-			"name": " 🌱┃酷喵资源",
-			"type": 1,
-			"api": "https://api.1080zyku.com/inc/api_mac10.php",
-			"searchable": 0,
-			"quickSearch": 0,
-			"filterable": 0,
-			"categories": [
-				"纪录片",
-				"动作片",
-				"喜剧片",
-				"爱情片",
-				"科幻片",
-				"剧情片",
-				"悬疑片",
-				"惊悚片",
-				"恐怖片",
-				"犯罪片",
-				"冒险片",
-				"奇幻片",
-				"灾难片",
-				"战争片",
-				"动漫",
-				"歌舞片",
-				"历史片",
-				"传记片",
-				"其他片",
-				"国产剧",
-				"台湾剧",
-				"韩国剧",
-				"欧美剧",
-				"香港剧",
-				"其他剧"
 			]
 		},
 		{
@@ -728,38 +459,6 @@
 			]
 		},
 		{
-			"key": "zy_金鹰资源",
-			"name": " 🦉┃金鹰资源",
-			"type": 1,
-			"api": "https://jyzyapi.com/provide/vod/",
-			"searchable": 1,
-			"quickSearch": 1,
-			"categories": [
-				"欧美剧",
-				"香港剧",
-				"韩剧",
-				"日剧",
-				"马泰剧",
-				"动作片",
-				"爱情片",
-				"喜剧片",
-				"科幻片",
-				"恐怖片",
-				"剧情片",
-				"战争片",
-				"记录片",
-				"动漫",
-				"内地剧",
-				"动画片",
-				"中国动漫",
-				"日本动漫",
-				"欧美动漫",
-				"综艺",
-				"台湾剧",
-				"体育赛事"
-			]
-		},
-		{
 			"key": "zy_闪电资源",
 			"name": " ⚡┃闪电资源",
 			"type": 1,
@@ -798,48 +497,6 @@
 				"奇幻片",
 				"港台动漫",
 				"海外动漫"
-			]
-		},
-		{
-			"key": "zy_iKun资源",
-			"name": " ☃┃iKun资源",
-			"type": 1,
-			"api": "https://ikunzyapi.com/api.php/provide/vod/",
-			"searchable": 1,
-			"quickSearch": 1,
-			"categories": [
-				"动作片",
-				"喜剧片",
-				"爱情片",
-				"科幻片",
-				"恐怖片",
-				"剧情片",
-				"战争片",
-				"惊悚片",
-				"家庭片",
-				"古装片",
-				"历史片",
-				"悬疑片",
-				"犯罪片",
-				"灾难片",
-				"记录片",
-				"短片",
-				"动画片",
-				"国产剧",
-				"香港剧",
-				"韩国剧",
-				"欧美剧",
-				"台湾剧",
-				"日本剧",
-				"海外剧",
-				"泰国剧",
-				"大陆综艺",
-				"港台综艺",
-				"日韩综艺",
-				"欧美综艺",
-				"国产动漫",
-				"欧美动漫",
-				"日本动漫"
 			]
 		},
 		{
@@ -952,8 +609,8 @@
 			]
 		},
 		{
-			"key": "zy_百度资源",
-			"name": "  🔍┃百度资源",
+			"key": "zy_黑木耳资源",
+			"name": "  🔍┃黑木耳资源",
 			"type": 1,
 			"api": "https://www.heimuer.tv/api.php/provide/vod",
 			"searchable": 0,
@@ -989,34 +646,6 @@
 				"悬疑片",
 				"邵氏电影",
 				"体育赛事"
-			]
-		},
-		{
-			"key": "zy_U酷资源",
-			"name": " 🔖┃U酷资源",
-			"type": 1,
-			"api": "https://api.ukuapi.com/api.php/provide/vod/",
-			"searchable": 1,
-			"quickSearch": 1,
-			"categories": [
-				"综艺",
-				"动漫",
-				"动作片",
-				"喜剧片",
-				"爱情片",
-				"科幻片",
-				"恐怖片",
-				"剧情片",
-				"战争片",
-				"国产剧",
-				"港澳剧",
-				"日剧",
-				"欧美剧",
-				"动漫电影",
-				"台湾剧",
-				"韩剧",
-				"泰剧",
-				"记录片"
 			]
 		},
 		{
@@ -1059,6 +688,45 @@
 			]
 		},
 		{
+			"key": "UC",
+			"name": "🦊优汐┃搜搜",
+			"type": 3,
+			"api": "csp_UuSs",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "Q搜",
+			"name": "🦊QQ┃搜索",
+			"type": 3,
+			"api": "csp_KkSs",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "米搜",
+			"name": "🦊米搜┃搜索",
+			"type": 3,
+			"api": "csp_MIPanSo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
 			"key": "夸搜",
 			"name": "🦊夸搜┃搜索",
 			"type": 3,
@@ -1068,64 +736,73 @@
 			"changeable": 0,
 			"ext": {
 				"pan": "quark",
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "Aliso",
+			"name": "🦊盘搜┃阿狸",
+			"type": 3,
+			"api": "csp_PanSearch",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
 			}
 		},
 		{
 			"key": "YiSo",
-			"name": "🦊易搜┃搜索",
+			"name": "🦊易搜┃阿狸",
 			"type": 3,
 			"api": "csp_YiSo",
-			"playerType": 1,
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
 			}
 		},
 		{
-			"key": "PanSou",
-			"name": "🦊盘搜┃搜索",
+			"key": "PanSso",
+			"name": "🦊盘他┃三盘",
 			"type": 3,
-			"api": "csp_PanSou",
-			"playerType": 1,
+			"api": "csp_PanSso",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
 			}
 		},
 		{
-			"key": "UpYun",
-			"name": "🦊Up搜┃搜索",
+			"key": "YpanSo",
+			"name": "🦊盘她┃三盘",
 			"type": 3,
-			"api": "csp_UpYun",
-			"playerType": 1,
+			"api": "csp_YpanSo",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
 			}
 		},
 		{
-			"key": "PanSearch",
-			"name": "🦊盘Se┃搜索",
+			"key": "xzso",
+			"name": "🦊盘它┃三盘",
 			"type": 3,
-			"api": "csp_PanSearch",
-			"playerType": 1,
+			"api": "csp_xzso",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
 			}
 		},
 		{
@@ -1136,7 +813,7 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
 			}
 		}

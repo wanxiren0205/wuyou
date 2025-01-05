@@ -5,18 +5,26 @@
 	"sites": [
 		{
 			"key": "豆瓣",
-			"name": "🌈豆瓣┃如有侵权 反馈：QQ群：665981772",
+			"name": "🌈豆瓣┃接口已移交开源平台 请测试完删除处理",
 			"type": 3,
 			"api": "csp_Douban",
 			"searchable": 0
 		},
 		{
 			"key": "配置",
-			"name": "️⚙️网盘┃配置4K 修复弹窗 夸夸非会员3G可播",
+			"name": "️⚙️网盘┃配置",
 			"type": 3,
 			"changeable": 0,
 			"searchable": 0,
 			"api": "csp_Config"
+		},
+		{
+			"key": "csp_SuBaiBai",
+			"name": "☁️白白┃1080P",
+			"type": 3,
+			"api": "csp_SuBaiBai",
+			"playerType": 2,
+			"ext": "https://subaibai.com/"
 		},
 		{
 			"key": "csp_Wogg",
@@ -34,7 +42,7 @@
 				],
 				"threadinfo": {
 					"chunksize": 450,
-					"threads": 10
+					"threads": 12
 				}
 			}
 		},
@@ -54,17 +62,23 @@
 				],
 				"url_key": "Duopan",
 				"threadinfo": {
-					"chunksize": 250,
-					"threads": 10
+					"chunksize": 450,
+					"threads": 12
 				}
 			}
 		},
 		{
-			"key": "csp_UC",
-			"name": "💌MIUC┃4K4K",
+			"key": "小怡",
+			"name": "🔍怡搜┃4K4K",
 			"type": 3,
-			"api": "csp_MiUc",
-			"changeable": 0,
+			"api": "csp_XiaoYi",
+			"changeable": 0
+		},
+		{
+			"key": "csp_UC",
+			"name": "💌UCUC┃4K4K",
+			"type": 3,
+			"api": "csp_Duopan",
 			"filterable": 1,
 			"ext": {
 				"site_urls": [
@@ -72,10 +86,13 @@
 					"http://ucmi.fun",
 					"http://www.ucmi.fun"
 				],
-				"url_key": "MiUc",
+				"url_key": "UC",
+				"token": "",
+				"ucCookie": "",
+				"quarkCookie": "",
 				"threadinfo": {
 					"chunksize": 450,
-					"threads": 10
+					"threads": 12
 				}
 			}
 		},
@@ -85,21 +102,6 @@
 			"type": 3,
 			"api": "csp_MiSou",
 			"changeable": 0
-		},
-		{
-			"key": "csp_Bili",
-			"name": "🆎哔哩┃哔哩",
-			"type": 3,
-			"api": "csp_Bili",
-			"playerType": 2,
-			"ext": {
-				"json": "https://drive.almondcloud.cn/f/odVjUB/bili.json",
-				"cookie": ""
-			},
-			"style": {
-				"type": "rect",
-				"ratio": 1.333
-			}
 		},
 		{
 			"key": "88看球",
@@ -153,12 +155,10 @@
 			"ext": ""
 		},
 		{
-			"key": "csp_SuBaiBai",
-			"name": "☁️白白┃1080P",
+			"key": "csp_Fantuan",
+			"name": "🍙饭团┃1080P",
 			"type": 3,
-			"api": "csp_SuBaiBai",
-			"playerType": 2,
-			"ext": "https://subaibai.com/"
+			"api": "csp_Fantuan"
 		},
 		{
 			"key": "huohuo",
@@ -182,29 +182,41 @@
 			"key": "csp_MiTuApp",
 			"name": "🐰米兔┃1080P",
 			"type": 3,
+			"quickSearch": 0,
 			"api": "csp_MiTuApp",
-			"ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9reTEwODAudG9wIiwKICAgICAgICAiZGF0YUtleSI6ICJlNTlkNDRiMmVlZjAzYmEyIiwKICAgICAgICAiZGF0YUl2IjogImU1OWQ0NGIyZWVmMDNiYTIiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgfQ=="
+			"ext": "s1/kf8dfHZAgs5H4ledT0oVFC1n/KhNfQfc0onBTauGjjbKin/VdMFrfJlKKnt/ClccntSyJqzbI1hHzGUUmZg7v02l1fvcdAH0iCUzGlopNgnI3rkeQtAwS54GySfRT0IRokasLwr5Rr6pm8/lTNJXMTEkq+9mzK976Dvv80seU9riYmFeBD+EBp8RzurdP02PNc0S2aZPlMbdm5yTIQfI8QeSRJGz+0AIsFOyBoPr4LDptq0AAc37KMhnWDCXF"
 		},
 		{
 			"key": "csp_电影",
 			"name": "🎬电影┃1080P",
 			"type": 3,
+			"quickSearch": 0,
 			"api": "csp_MiTuApp",
-			"ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5IiwKICAgICAgICAiZGF0YUtleSI6ICJkeXl6dHZhcGlhcHB5eWRzIiwKICAgICAgICAiZGF0YUl2IjogImR5eXp0dmFwaWFwcHl5ZHMiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgICAgIH0="
+			"ext": "s1/kf8dfHZAgs5H4ledT0gNpK7vQhd67t79FMOlp/3hon97gPN02BO+erk3EBCNXM6SamStX8E1N/eOSW8iHnh/V/WWXQik712AKDkDyClacr4JX917KX00fvnFi+PAJCJmEjfkTIInNogcntp+7cErzTorQY87aZkXQz64jcMNBTxpU+OGhfwZ2WqemvRRoQcF3TRFQdK9yVcAPrcKlPHxNivbPun5GntvfOIbWqYyWQSzU7f8y5TSHoXNt3Ag7WpEtt5DdeFwKFlYQ/RcwUw=="
 		},
 		{
-			"key": "csp_zhufan",
-			"name": "🍚追饭┃1080P",
-			"searchable": 1,
-			"quickSearch": 1,
+			"key": "csp_悠悠",
+			"name": "🍔悠悠┃1080P",
 			"type": 3,
-			"api": "csp_MiTo",
-			"ext": {
-				"url": "http://103.88.35.251:8989",
-				"dataKey": "aassddwwxxllsx1x",
-				"playKey": "bbssqdbbssll25sx",
-				"version": "2.1.0"
-			}
+			"quickSearch": 0,
+			"api": "csp_MiTuApp",
+			"ext": "sHR2rlsfjI4L3t4RXQMknzkBg7Vkp4iTNqyeosAJpHnw6roDAjVKHwM/MZzlXynRCKNQf+PEtIE3pKftvdy035HammwEvPJdXnu53vPsiVjInePtgdaIgmcH8QzBLPlDKW1pNMfczNnMzBOp9pYad354sdlKgFnUBsFuy5KfTh6NymaocNlwJqN85IfMUV4M"
+		},
+		{
+			"key": "csp_良人",
+			"name": "👨良人┃1080P",
+			"type": 3,
+			"quickSearch": 0,
+			"api": "csp_MiTuApp",
+			"ext": "sHR2rlsfjI4L3t4RXQMkn+pzOh0GsJJgcwHHxDs8FcBDGD81qAZtun78VAJxzshCbStdXIlQiksUvc2b5fXyuxJO9KBNp5LzL/pYLLOs1V3R3WOh90eVpJGxxXWEZtoq+F7Cq4CbQ3J1TTXahpYpeXXeevwPopQutGBNaxYkdBgBL6rCgov0BCUWOXriRXNndZJYNJohfwIzBP+iTuz6C8FWXazDuKfwSS4BfeyQuGM="
+		},
+		{
+			"key": "csp_麻花",
+			"name": "🥙麻花┃1080P",
+			"type": 3,
+			"quickSearch": 0,
+			"api": "csp_MiTuApp",
+			"ext": "sHR2rlsfjI4L3t4RXQMkn8ivSF5g8jXfhsjvizFR8ljN3AOVzpH9pr9GtPv0p/pnhxACPxmzklGulcZ5QfkGRCf6Rs7SjJmolZldAYa939+CUP8xvcjHb492E8waghkGxrtWlTiEC9t4dl/TaQf07LDUAJHsnAKfXpKlbKLXQWnAB8CtibGEXY01QAOeG3k4IaLl5w+AZDEEMHPNX5zL4bnOOk1PYBVZKZWV+DzWC9I="
 		},
 		{
 			"key": "csp_LiteApple",
@@ -218,30 +230,6 @@
 			"ext": ""
 		},
 		{
-			"key": "hipy_js_腾云驾雾[官]",
-			"name": "🐧腾腾┃1080P",
-			"type": 3,
-			"api": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "https://gitee.com/smallmi1007/mimi/raw/master/tm.js"
-		},
-		{
-			"key": "guoguo",
-			"name": "🥭果果┃4K4K",
-			"type": 3,
-			"api": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "https://gitee.com/smallmi1007/mimi/raw/master/guoguo.js"
-		},
-		{
 			"key": "csp_视觉",
 			"name": "🔭视觉┃PYTHON",
 			"type": 3,
@@ -253,25 +241,39 @@
 			"filterable": 1
 		},
 		{
+			"key": "csp_LaoBaiBook",
+			"name": "📚听书┃BOOK",
+			"type": 3,
+			"api": "csp_LaoBaiBook",
+			"playerType": 2,
+			"searchable": 0,
+			"style": {
+				"type": "rect",
+				"ratio": 1.333
+			}
+		},
+		{
+			"key": "csp_Bili",
+			"name": "🆎哔哩┃哔哩",
+			"type": 3,
+			"api": "csp_Bili",
+			"playerType": 2,
+			"ext": {
+				"json": "https://drive.almondcloud.cn/f/odVjUB/bili.json",
+				"cookie": ""
+			},
+			"style": {
+				"type": "rect",
+				"ratio": 1.333
+			}
+		},
+		{
 			"key": "荐片",
 			"name": "🍭荐片┃磁力",
 			"api": "csp_Jianpian",
 			"type": 3,
 			"playerType": "1",
 			"ext": "http://api2.rinhome.com"
-		},
-		{
-			"key": "csp_FirstAid",
-			"name": "🍧急救┃教学",
-			"type": 3,
-			"api": "csp_FirstAid",
-			"searchable": 0,
-			"quickSearch": 0,
-			"style": {
-				"type": "rect",
-				"ratio": 3.8
-			},
-			"gridview": "0-0-4.1"
 		},
 		{
 			"key": "push_agent",
@@ -325,7 +327,7 @@
 		{
 			"name": "反弹",
 			"type": 1,
-			"url": "https://150.138.78.37:4399/api?key=2b879e7ecc09a112c1d9f85c42967aca&url=",
+			"url": "http://110.40.85.39:81/jxxx/api.php?url=",
 			"ext": {
 				"flag": [
 					"qq",
@@ -383,22 +385,23 @@
 	],
 	"lives": [
 		{
-			"name": "IPV4若卡顿切IPV6",
+			"name": "央卫",
 			"type": 0,
-			"url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",
+			"url": "https://livetv.wqwqwq.sbs/tv.m3u",
 			"playerType": 1,
 			"logo": "https://live.fanmingming.com/tv/{name}.png"
 		},
 		{
-			"name": "IPV6①",
+			"name": "4GTV",
 			"type": 0,
-			"url": "https://ghp.ci/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-			"playerType": 1
+			"url": "https://tvv.wqwqwq.sbs/iptv.m3u",
+			"playerType": 1,
+			"logo": "https://live.fanmingming.com/tv/{name}.png"
 		},
 		{
-			"name": "IPV6②",
+			"name": "IPV6",
 			"type": 0,
-			"url": "https://ghp.ci/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+			"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
 			"playerType": 1,
 			"logo": "https://live.fanmingming.com/tv/{name}.png"
 		},
@@ -408,6 +411,151 @@
 			"url": "https://tv.iill.top/m3u/Live",
 			"ua": "okhttp/3.15",
 			"playerType": 2
+		}
+	],
+	"rules": [
+		{
+			"name": "♻️量非",
+			"hosts": [
+				"lz",
+				"vip.lz",
+				"v.cdnlz",
+				"hd.lz",
+				"ffzy",
+				"vip.ffzy",
+				"hd.ffzy"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			]
+		},
+		{
+			"name": "♻️索尼",
+			"hosts": [
+				"suonizy",
+				"qrssv.com"
+			],
+			"regex": [
+				"15.1666",
+				"15.2666"
+			]
+		},
+		{
+			"name": "♻️乐视",
+			"hosts": [
+				"leshiyun"
+			],
+			"regex": [
+				"15.92"
+			]
+		},
+		{
+			"name": "♻️优质",
+			"hosts": [
+				"yzzy",
+				"playback"
+			],
+			"regex": [
+				"16.63",
+				"18.66",
+				"17.66",
+				"19.13"
+			]
+		},
+		{
+			"name": "♻️快看",
+			"hosts": [
+				"kuaikan",
+				"vip.kuaikan"
+			],
+			"regex": [
+				"15.32",
+				"15.231",
+				"18.066"
+			]
+		},
+		{
+			"name": "♻️360",
+			"hosts": [
+				"lyhuicheng"
+			],
+			"regex": [
+				"#EXTINF.*?\\s+.*?hrz8QcR9.*?\\.ts\\s+",
+				"#EXT-X-KEY:METHOD=NONE[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			]
+		},
+		{
+			"name": "♻️开源棋牌",
+			"hosts": [
+				"askzycdn",
+				"jkunbf",
+				"bfikuncdn",
+				"bfaskcdn"
+			],
+			"regex": [
+				"#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\\r*\\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			]
+		},
+		{
+			"name": "♻️暴风",
+			"hosts": [
+				"bfengbf.com",
+				"bfzy",
+				"c1"
+			],
+			"regex": [
+				"#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
+				"#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			]
+		},
+		{
+			"name": "♻️农民",
+			"hosts": [
+				"toutiaovod.com"
+			],
+			"regex": [
+				"video/tos/cn"
+			]
+		},
+		{
+			"name": "♻️火山",
+			"hosts": [
+				"huoshan.com"
+			],
+			"regex": [
+				"item_id="
+			]
+		},
+		{
+			"name": "♻️抖音",
+			"hosts": [
+				"douyin.com"
+			],
+			"regex": [
+				"is_play_url="
+			]
+		},
+		{
+			"name": "♻️磁力",
+			"hosts": [
+				"magnet"
+			],
+			"regex": [
+				"最 新",
+				"直 播",
+				"更 新"
+			]
+		},
+		{
+			"name": "♻️饭团点击",
+			"hosts": [
+				"fantuan"
+			],
+			"script": [
+				"document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+			]
 		}
 	]
 }

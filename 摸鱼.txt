@@ -27,7 +27,7 @@
 			"name": "🚀弹幕┃高级┃设置",
 			"type": 3,
 			"api": "csp_Config",
-			"jar": "http://我不是.摸鱼儿.com/by/jar/danmu.php",
+			"jar": "./jar/摸鱼配置.jar",
 			"searchable": 0,
 			"changeable": 0,
 			"indexs": 0,

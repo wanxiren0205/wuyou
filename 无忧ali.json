@@ -2,25 +2,122 @@
 	"wallpaper_ms": "https://gitee.com/liu_wuyou/box/raw/master/Bz/bz_msw.jsonp",
 	"wallpaper": "https://moe.jitsu.top/img",
 	"logo": "https://gitee.com/liu_wuyou/box/raw/master/Bz/logo.jpg",
-	"spider": "https://gitlab.com/duomv/duo/-/raw/main/pg.jar",
+	"spider": "./jar/fm.jar",
 	"sites": [
 		{
 			"key": "drpy",
-			"name": "更新日期:2024.12.16    QQ群:855827389",
+			"name": "更新日期:2024.12.31    QQ群:855827389",
 			"type": 3,
 			"api": "./JS/lib/drpy.min.js",
 			"ext": "./JS/js/drpy.js",
 			"jar": "./jar/fm.jar"
 		},
 		{
-			"key": "南瓜",
-			"name": "南瓜 | App",
+			"key": "荐片",
+			"name": "磁力｜荐片",
 			"type": 3,
-			"api": "csp_NanGua",
-			"playerType": 2,
+			"api": "csp_JianPian",
+			"playerType": 1,
 			"searchable": 1,
 			"quickSearch": 1,
-			"changeable": 1
+			"filterable": 1,
+			"ext": "http://api2.rinhome.com",
+			"jar": "./Hk/Hk.jar"
+		},
+		{
+			"key": "新6V",
+			"name": "磁力｜New6V",
+			"type": 3,
+			"api": "csp_SixV",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": "https://www.xb6v.com/",
+			"jar": "./jar/fm.jar"
+		},
+		{
+			"key": "SeedHub",
+			"name": "磁力｜SeedHub",
+			"type": 3,
+			"api": "csp_SeedHub",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./Hk/Hk.jar"
+		},
+		{
+			"key": "美剧迷",
+			"name": "磁力｜美剧迷",
+			"type": 3,
+			"api": "csp_MeijuMi",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./Hk/Hk.jar"
+		},
+		{
+			"key": "迅雷吧",
+			"name": "磁力｜迅雷吧",
+			"type": 3,
+			"api": "csp_Xunlei8",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./Hk/Hk.jar"
+		},
+		{
+			"key": "美剧天堂",
+			"name": "磁力｜美剧天堂",
+			"type": 3,
+			"api": "csp_MeijuTT",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./Hk/Hk.jar"
+		},
+		{
+			"key": "Mp4电影",
+			"name": "磁力｜Mp4电影",
+			"type": 3,
+			"api": "csp_Mp4Mov",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./Hk/Hk.jar"
+		},
+		{
+			"key": "csp_XYQHiker_磁力熊",
+			"name": "磁力｜磁力熊",
+			"type": 3,
+			"api": "csp_XYQHiker",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./HK/XYQHiker/磁力熊.json",
+			"jar": "./Hk/Hk.jar"
+		},
+		{
+			"key": "Bt",
+			"name": "磁力｜ BT天堂",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"filterable": 1,
+			"playerType": 1,
+			"jar": "https://git.acwing.com/wuyou/tvbox/-/raw/main/jar/xbpq%E6%96%B0%E7%89%88.jar?inline=false",
+			"ext": {
+				"数组": "class=\"col-md-6\">&&</li>",
+				"副标题": "span>更新时间：&&<a",
+				"简介": "<p>◎简*介&&<p>◎影片截图</p>",
+				"起始页": 0,
+				"线路标题": "磁力",
+				"搜索请求头参数": "User-Agent$PC_UA",
+				"搜索url": "https://www.bttt11.com/e/search/;post",
+				"POST请求数据": "show=title,newstext&keyboard={wd}&searchtype=影视搜索",
+				"分类url": "https://www.bttt11.com/html/page-{cateId}-{catePg}.html",
+				"分类": "大陆电影&港台电影&欧美电影&欧美剧&日韩剧&日韩电影&动漫&亚太剧&畅太电影&综艺&畅影纪录片",
+				"分类值": "4&3&1&6&7&2&11&10&5&12&13"
+			}
 		},
 		{
 			"key": "玩偶",
@@ -31,26 +128,15 @@
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto",
 				"siteUrl": "https://www.wogg.net/",
 				"danMu": "弹"
 			}
 		},
 		{
-			"key": "玩偶哥哥[盘]",
-			"name": "玩偶 | 哥哥[推]",
-			"type": 3,
-			"api": "./JS/lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 72,
-			"ext": "./JS/js/玩偶哥哥.js"
-		},
-		{
 			"key": "csp_Duopan",
-			"name": "蜡笔影视",
+			"name": "蜡笔 | 影视",
 			"type": 3,
 			"api": "csp_Duopan",
 			"playerType": 2,
@@ -59,15 +145,44 @@
 			"jar": "https://gitee.com/liu_wuyou/box/raw/master/jar/%E8%82%A5%E7%8C%AB.jar"
 		},
 		{
-			"key": "抠搜",
-			"name": "抠抠┃搜搜",
+			"key": "csp_FeiMaoUC",
+			"name": "肥猫 | UC",
+			"type": 3,
+			"api": "csp_Duopan",
+			"filterable": 1,
+			"ext": {
+				"site_urls": [
+					"http://www.mucpan.cc",
+					"http://ucmi.fun",
+					"http://www.ucmi.fun"
+				],
+				"url_key": "FeiMaoUC"
+			},
+			"jar": "https://gitee.com/liu_wuyou/box/raw/master/jar/%E8%82%A5%E7%8C%AB.jar"
+		},
+		{
+			"key": "UC",
+			"name": "优汐┃搜搜",
+			"type": 3,
+			"api": "csp_UuSs",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "Q搜",
+			"name": "QQ┃搜索",
 			"type": 3,
 			"api": "csp_KkSs",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
 			}
 		},
@@ -80,10 +195,9 @@
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
-			},
-			"jar": "./jar/fm.jar"
+			}
 		},
 		{
 			"key": "夸搜",
@@ -95,55 +209,74 @@
 			"changeable": 0,
 			"ext": {
 				"pan": "quark",
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
-			},
-			"jar": "./jar/fm.jar"
+			}
+		},
+		{
+			"key": "Aliso",
+			"name": "盘搜┃阿狸",
+			"type": 3,
+			"api": "csp_PanSearch",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
 		},
 		{
 			"key": "YiSo",
-			"name": "易搜┃搜索",
+			"name": "易搜┃阿狸",
 			"type": 3,
 			"api": "csp_YiSo",
-			"playerType": 1,
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
-			},
-			"jar": "./jar/fm.jar"
+			}
 		},
 		{
-			"key": "PanSou",
-			"name": "盘搜┃搜索",
+			"key": "PanSso",
+			"name": "盘他┃三盘",
 			"type": 3,
 			"api": "csp_PanSso",
-			"playerType": 1,
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
-			},
-			"jar": "./jar/fm.jar"
+			}
 		},
 		{
-			"key": "PanSearch",
-			"name": "盘Se┃搜索",
+			"key": "YpanSo",
+			"name": "盘她┃三盘",
 			"type": 3,
-			"api": "csp_PanSearch",
-			"playerType": 1,
+			"api": "csp_YpanSo",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
-			},
-			"jar": "./jar/fm.jar"
+			}
+		},
+		{
+			"key": "xzso",
+			"name": "盘它┃三盘",
+			"type": 3,
+			"api": "csp_xzso",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
 		},
 		{
 			"key": "csp_GitCafe1",
@@ -241,7 +374,7 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
 			}
 		}
@@ -328,36 +461,88 @@
 			"url": "Parallel"
 		},
 		{
-			"name": "B站",
-			"url": "https://jx.jsonplayer.com/player/?url=",
-			"type": 0,
+			"name": "磨盘",
+			"type": 1,
+			"url": "https://www.mpanso.com/muou/qilin.php?url=",
 			"ext": {
 				"flag": [
-					"Bilibili",
+					"qq",
+					"腾讯",
 					"qiyi",
-					"imgo",
 					"爱奇艺",
 					"奇艺",
-					"qq",
-					"qq 预告及花絮",
-					"腾讯",
 					"youku",
 					"优酷",
-					"pptv",
-					"PPTV",
+					"sohu",
+					"搜狐",
 					"letv",
 					"乐视",
-					"leshi",
 					"mgtv",
 					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "反弹",
+			"type": 1,
+			"url": "https://150.138.78.37:4399/api?key=2b879e7ecc09a112c1d9f85c42967aca&url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
 					"sohu",
-					"xigua",
-					"fun",
-					"风行"
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
+				],
+				"header": {
+					"User-Agent": "User-Agent:Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36"
+				}
+			}
+		},
+		{
+			"name": "小凤",
+			"type": 1,
+			"url": "https://jx.xiaofengtv.com/jx.php?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"rx",
+					"ltnb",
+					"bilibili",
+					"1905",
+					"xigua"
 				]
-			},
-			"header": {
-				"User-Agent": "Mozilla/5.0"
 			}
 		},
 		{
@@ -521,104 +706,8 @@
 			}
 		},
 		{
-			"name": "哔哩",
-			"url": "https://vip.bljiex.com/?v=",
-			"type": 0,
-			"ext": {
-				"flag": [
-					"qiyi",
-					"imgo",
-					"爱奇艺",
-					"奇艺",
-					"qq",
-					"qq 预告及花絮",
-					"腾讯",
-					"youku",
-					"优酷",
-					"pptv",
-					"PPTV",
-					"letv",
-					"乐视",
-					"leshi",
-					"mgtv",
-					"芒果",
-					"sohu",
-					"xigua",
-					"fun",
-					"风行"
-				]
-			},
-			"header": {
-				"User-Agent": "Mozilla/5.0"
-			}
-		},
-		{
-			"name": "阳途",
-			"url": "https://jx.yangtu.top/?url=",
-			"type": 0,
-			"ext": {
-				"flag": [
-					"qiyi",
-					"imgo",
-					"爱奇艺",
-					"奇艺",
-					"qq",
-					"qq 预告及花絮",
-					"腾讯",
-					"youku",
-					"优酷",
-					"pptv",
-					"PPTV",
-					"letv",
-					"乐视",
-					"leshi",
-					"mgtv",
-					"芒果",
-					"sohu",
-					"xigua",
-					"fun",
-					"风行"
-				]
-			},
-			"header": {
-				"User-Agent": "Mozilla/5.0"
-			}
-		},
-		{
 			"name": "8090g",
 			"url": "https://www.8090g.cn/jiexi/?url=",
-			"type": 0,
-			"ext": {
-				"flag": [
-					"qiyi",
-					"imgo",
-					"爱奇艺",
-					"奇艺",
-					"qq",
-					"qq 预告及花絮",
-					"腾讯",
-					"youku",
-					"优酷",
-					"pptv",
-					"PPTV",
-					"letv",
-					"乐视",
-					"leshi",
-					"mgtv",
-					"芒果",
-					"sohu",
-					"xigua",
-					"fun",
-					"风行"
-				]
-			},
-			"header": {
-				"User-Agent": "Mozilla/5.0"
-			}
-		},
-		{
-			"name": "777",
-			"url": "https://jx.777jiexi.com/player/?url=",
 			"type": 0,
 			"ext": {
 				"flag": [
@@ -702,101 +791,7 @@
 			}
 		},
 		{
-			"name": "全解",
-			"type": 0,
-			"url": "http://119.91.123.253:2345/Api/yun.php?url=",
-			"ext": {
-				"flag": [
-					"360",
-					"qq",
-					"腾讯",
-					"企鹅",
-					"IQiYi",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"YouKu",
-					"优酷",
-					"sohu",
-					"SoHu",
-					"搜狐",
-					"letv",
-					"LeShi",
-					"乐视",
-					"imgo",
-					"mgtv",
-					"MangGuo",
-					"芒果",
-					"SLYS4k",
-					"BYGA",
-					"luanzi",
-					"AliS",
-					"dxzy",
-					"bilibili",
-					"QEYSS",
-					"xigua",
-					"西瓜视频",
-					"腾讯视频",
-					"奇艺视频",
-					"优酷视频",
-					"芒果视频",
-					"乐视视频"
-				],
-				"header": {
-					"User-Agent": "Dart/2.18 (dart:io)"
-				}
-			}
-		},
-		{
-			"name": "微微",
-			"type": 0,
-			"url": "https://cdn.centos.chat/video-player/weisuan/?url=",
-			"ext": {
-				"flag": [
-					"360",
-					"qq",
-					"腾讯",
-					"企鹅",
-					"IQiYi",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"YouKu",
-					"优酷",
-					"sohu",
-					"SoHu",
-					"搜狐",
-					"letv",
-					"LeShi",
-					"乐视",
-					"imgo",
-					"mgtv",
-					"MangGuo",
-					"芒果",
-					"SLYS4k",
-					"BYGA",
-					"luanzi",
-					"AliS",
-					"dxzy",
-					"bilibili",
-					"QEYSS",
-					"xigua",
-					"西瓜视频",
-					"腾讯视频",
-					"奇艺视频",
-					"优酷视频",
-					"芒果视频",
-					"乐视视频"
-				],
-				"header": {
-					"User-Agent": "Dart/2.18 (dart:io)"
-				}
-			}
-		},
-		{
-			"name": "稻香",
+			"name": "虾米",
 			"type": 0,
 			"url": "https://jx.xmflv.com/?url=",
 			"ext": {
@@ -821,35 +816,6 @@
 				],
 				"header": {
 					"User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "云播",
-			"type": 0,
-			"url": "http://110.42.2.247:880/analysis/json/?uid=2334&my=fhloqstzDIKLMORTZ9&url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"mgtv",
-					"芒果",
-					"letv",
-					"乐视",
-					"pptv",
-					"PPTV",
-					"sohu",
-					"bilibili",
-					"哔哩哔哩",
-					"哔哩"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.1.0"
 				}
 			}
 		},
@@ -1078,7 +1044,7 @@
 		{
 			"name": "本地",
 			"type": 0,
-			"url": "http://127.0.0.1:9978/file/TVBox/tv/live.txt",
+			"url": "./tv/live.txt",
 			"playerType": 2,
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",

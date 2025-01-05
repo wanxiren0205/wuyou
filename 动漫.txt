@@ -12,18 +12,15 @@
 			"changeable": 1
 		},
 		{
-			"key": "蜜糖",
-			"name": "蜜糖动漫",
+			"key": "csp_Dm84_3",
+			"name": "动漫巴士",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "https://cloud.lxweb.cn/f/EErNiX/xbpq%E6%96%B0%E7%89%88.jar",
-			"ext": {
-				"线路数组": "dropdown&&</div>",
-				"线路标题": "<span>&&<+【+<small>&&+集】",
-				"简介": "20px;\"&&</p>",
-				"分类url": "https://www.mitang.tv/vodshow/by/{by}/id/{cateId}/page/{catePg}/;;mak",
-				"分类": "新番$122A#番剧$T22A#剧场$l22A#极清$m22A#美漫$G22A"
-			}
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./xBPQ/动漫巴士.json",
+			"jar": "https://gitee.com/liu_wuyou/box/raw/master/jar/xbpq%E6%96%B0%E7%89%88.jar"
 		},
 		{
 			"key": "樱花动漫",
@@ -32,50 +29,6 @@
 			"api": "csp_xBPQ",
 			"ext": "分类url:https://www.857yhdm.com/show/{cateId}--{by}------{catePg}---{year}.html,分类:日本动漫$ribendongman#国产动漫$guochandongman#动漫电影$dongmandianying#欧美动漫$omeidongman",
 			"jar": "https://git.acwing.com/wuyou/tvbox/-/raw/main/jar/xzy1029.jar?inline=false"
-		},
-		{
-			"key": "csp_xifan",
-			"name": "稀饭动漫",
-			"type": 3,
-			"api": "csp_Xifan",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"jar": "https://gitee.com/wuyougouwu/tvsource/raw/master/jar/%E8%82%A5%E7%8C%AB.jar"
-		},
-		{
-			"key": "drpy_js_58动漫",
-			"name": "58动漫1",
-			"type": 3,
-			"api": "./JS/lib/drpy2.min.js",
-			"ext": "./JS/js/58动漫.js"
-		},
-		{
-			"key": "58dm",
-			"name": "58动漫2",
-			"api": "csp_XBPQ",
-			"type": 3,
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"changeable": 0,
-			"playerType": "2",
-			"ext": {
-				"站名": "58动漫",
-				"主页url": "http://www.58run.net",
-				"数组": "class=\"stui-vodlist__box\">&&</a",
-				"链接": "href=\"&&\"",
-				"图片": "data-original=\"&&\"",
-				"标题": "title=\"&&\"",
-				"副标题": " <span class=\"pic-text text-right\">&&</span>",
-				"分类url": "http://www.58run.net/category/{cateId}-{catePg}.html",
-				"分类": "国产动漫$1#日韩动漫$2#欧美动漫$3#高清动漫$4#电影$5"
-			},
-			"jar": "https://cloud.lxweb.cn/f/EErNiX/xbpq%E6%96%B0%E7%89%88.jar"
 		},
 		{
 			"key": "nt动漫",
@@ -113,58 +66,15 @@
 			"jar": "https://git.acwing.com/wuyou/tvbox/-/raw/main/jar/xzy1029.jar?inline=false;md5;5a3a30123ac5eb236aa3e96a7669442f"
 		},
 		{
-			"key": "奇米动漫",
-			"name": "奇米动漫",
+			"key": "csp_xpath_dmw",
+			"name": "动漫岛",
 			"type": 3,
-			"api": "./JS/lib/drpy.min.js",
-			"ext": "./JS/js/奇米动漫.js"
-		},
-		{
-			"key": "drpy_js_曲奇动漫",
-			"name": "曲奇动漫",
-			"type": 3,
-			"api": "./JS/lib/drpy2.min.js",
-			"ext": "./JS/js/曲奇动漫.js"
-		},
-		{
-			"key": "维奇动漫",
-			"name": "维奇动漫",
-			"type": 3,
-			"api": "csp_XBiubiu",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"ext": "./MaooXB2/维奇动漫.json",
-			"jar": "https://git.acwing.com/wuyou/tvbox/-/raw/main/jar/xzy1029.jar?inline=false;md5;5a3a30123ac5eb236aa3e96a7669442f"
-		},
-		{
-			"key": "去看动漫",
-			"name": "去看动漫",
-			"type": 3,
-			"api": "csp_XBiubiu",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"ext": "./MaooXB2/去看动漫xb.json",
-			"jar": "https://git.acwing.com/wuyou/tvbox/-/raw/main/jar/xzy1029.jar?inline=false;md5;5a3a30123ac5eb236aa3e96a7669442f"
-		},
-		{
-			"key": "csp_Anime1",
-			"name": "日本动漫",
-			"type": 3,
-			"api": "csp_Anime1",
-			"playerType": 2,
+			"api": "csp_XPathMacFilter",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "https://git.acwing.com/wuyou/tvbox/-/raw/main/jar/xzy1029.jar?inline=false;md5;5a3a30123ac5eb236aa3e96a7669442f"
-		},
-		{
-			"key": "drpy_js_AnFuns",
-			"name": "AnFuns",
-			"type": 3,
-			"api": "./JS/lib/drpy.min.js",
-			"ext": "./JS/js/AnFuns.js"
+			"ext": "./MaooXP/dmw.json",
+			"jar": "https://git.acwing.com/wuyou/tvbox/-/raw/main/jar/xzy1029.jar?inline=false"
 		},
 		{
 			"key": "drpy_js_爱弹幕",
@@ -172,18 +82,6 @@
 			"type": 3,
 			"api": "./JS/lib/drpy2.min.js",
 			"ext": "./JS/js/爱弹幕.js"
-		},
-		{
-			"key": "百度",
-			"name": "百度",
-			"type": 1,
-			"api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
-			"searchable": 1,
-			"filterable": 0,
-			"categories": [
-				"国产动漫",
-				"日韩动漫"
-			]
 		},
 		{
 			"key": "魔都",
@@ -195,81 +93,133 @@
 			"filterable": 1
 		},
 		{
+			"key": "UC",
+			"name": "优汐┃搜搜",
+			"type": 3,
+			"api": "csp_UuSs",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "Q搜",
+			"name": "QQ┃搜索",
+			"type": 3,
+			"api": "csp_KkSs",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "米搜",
+			"name": "米搜┃搜索",
+			"type": 3,
+			"api": "csp_MIPanSo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
 			"key": "夸搜",
 			"name": "夸搜┃搜索",
-			"type": 3,
-			"api": "csp_QuarkPanso",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
-			}
-		},
-		{
-			"key": "YiSo",
-			"name": "易搜┃搜索",
-			"type": 3,
-			"api": "csp_YiSo",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
-			}
-		},
-		{
-			"key": "PanSou",
-			"name": "盘搜┃搜索",
-			"type": 3,
-			"api": "csp_PanSou",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
-			}
-		},
-		{
-			"key": "UpYun",
-			"name": "Up搜┃搜索",
-			"type": 3,
-			"api": "csp_UpYun",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
-			}
-		},
-		{
-			"key": "PanSearch",
-			"name": "盘Se┃搜索",
 			"type": 3,
 			"api": "csp_PanSearch",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
+				"pan": "quark",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "Aliso",
+			"name": "盘搜┃阿狸",
+			"type": 3,
+			"api": "csp_PanSearch",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "YiSo",
+			"name": "易搜┃阿狸",
+			"type": 3,
+			"api": "csp_YiSo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "PanSso",
+			"name": "盘他┃三盘",
+			"type": 3,
+			"api": "csp_PanSso",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "YpanSo",
+			"name": "盘她┃三盘",
+			"type": 3,
+			"api": "csp_YpanSo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "xzso",
+			"name": "盘它┃三盘",
+			"type": 3,
+			"api": "csp_xzso",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
 			}
 		},
 		{
 			"key": "push_agent",
-			"name": "📱手机 | 推送",
+			"name": "🛴推送(阿里/夸克)",
 			"type": 3,
 			"api": "csp_Push",
 			"searchable": 0,
 			"quickSearch": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
 			}
 		}
 	],

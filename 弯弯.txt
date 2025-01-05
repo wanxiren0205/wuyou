@@ -24,16 +24,6 @@
 			"jar": "./jar/fm.jar"
 		},
 		{
-			"key": "南瓜",
-			"name": "南瓜App(爬)",
-			"type": 3,
-			"api": "csp_NanGua",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
 			"key": "360_spider",
 			"name": "360影视(爬)",
 			"api": "csp_SP360",
@@ -55,53 +45,12 @@
 			"ext": "https://auete.pro/"
 		},
 		{
-			"key": "Kunyu",
-			"name": "七七资源(爬)",
-			"type": 3,
-			"jar": "./jar/fm.jar",
-			"api": "csp_Kunyu77",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
-			"key": "csp_Nmys",
+			"key": "csp_农民",
 			"name": "农民直连(爬)",
 			"type": 3,
-			"api": "csp_Nmys",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "./MaooXP/nmys.json"
-		},
-		{
-			"key": "csp_Yj1211",
-			"name": "直播合集(爬)",
-			"type": 3,
-			"api": "csp_Yj1211",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
-			"key": "csp_Anime1",
-			"name": "日本动漫(爬)",
-			"type": 3,
-			"api": "csp_Anime1",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
-			"key": "csp_xf_真不卡",
-			"name": "️真不卡影视(H)",
-			"type": 3,
-			"api": "csp_XYQHiker",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"jar": "./Hk/Hk.jar",
-			"ext": "./MaooXP/zhenbuka.json"
+			"api": "csp_Nongm",
+			"ext": "https://wwgz.cn",
+			"jar": "https://gitee.com/liu_wuyou/box/raw/master/jar/%E8%82%A5%E7%8C%AB.jar"
 		},
 		{
 			"key": "csp_XYQBiu_疯狗影院",
@@ -112,65 +61,10 @@
 			"quickSearch": 1,
 			"filterable": 0,
 			"jar": "./Hk/Hk.jar",
-			"ext": "./MaooXP/fenggou.json"
+			"ext": "./Hk/XYQBiu/疯狗视频.json"
 		},
 		{
-			"key": "csp_xf_naikan",
-			"name": "️耐看影视(H)",
-			"type": 3,
-			"api": "csp_XYQHiker",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"jar": "./Hk/Hk.jar",
-			"ext": "./MaooXP/naikan.json"
-		},
-		{
-			"key": "csp_xf_ksj",
-			"name": "️看世界(H)",
-			"type": 3,
-			"api": "csp_XYQHiker",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"jar": "./Hk/Hk.jar",
-			"ext": "./MaooXP/300kanshijie.json"
-		},
-		{
-			"key": "csp_xf_ksj2",
-			"name": "️300看世界(H)",
-			"type": 3,
-			"api": "csp_XYQHiker",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"jar": "./Hk/Hk.jar",
-			"ext": "./MaooXP/300kanshijie.json"
-		},
-		{
-			"key": "csp_xf_xiangjiao5",
-			"name": "️freeok影视(H)",
-			"type": 3,
-			"api": "csp_XYQHiker",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"jar": "./Hk/Hk.jar",
-			"ext": "./MaooXP/freeok.json"
-		},
-		{
-			"key": "白嫖者联盟",
-			"name": "️白嫖者联盟(H)",
-			"type": 3,
-			"api": "csp_XYQHiker",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"jar": "./Hk/Hk.jar",
-			"ext": "./MaooXP/bpzlm.json"
-		},
-		{
-			"key": "buxiutv",
+			"key": "csp_XYQHiker_buxiutv",
 			"name": "️不休电视(H)",
 			"type": 3,
 			"api": "csp_XYQHiker",
@@ -178,7 +72,7 @@
 			"quickSearch": 1,
 			"filterable": 0,
 			"jar": "./Hk/Hk.jar",
-			"ext": "./MaooXP/buxiutv.json"
+			"ext": "./Hk/XYQHiker/不修TV.json"
 		},
 		{
 			"key": "dr_tva云播",
@@ -218,82 +112,135 @@
 			"ext": "./JS/js/310直播.js"
 		},
 		{
+			"key": "UC",
+			"name": "优汐┃搜搜",
+			"type": 3,
+			"api": "csp_UuSs",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "Q搜",
+			"name": "QQ┃搜索",
+			"type": 3,
+			"api": "csp_KkSs",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "米搜",
+			"name": "米搜┃搜索",
+			"type": 3,
+			"api": "csp_MIPanSo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
 			"key": "夸搜",
 			"name": "夸搜┃搜索",
-			"type": 3,
-			"api": "csp_QuarkPanso",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
-			}
-		},
-		{
-			"key": "YiSo",
-			"name": "易搜┃搜索",
-			"type": 3,
-			"api": "csp_YiSo",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
-			}
-		},
-		{
-			"key": "PanSou",
-			"name": "盘搜┃搜索",
-			"type": 3,
-			"api": "csp_PanSou",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
-			}
-		},
-		{
-			"key": "UpYun",
-			"name": "Up搜┃搜索",
-			"type": 3,
-			"api": "csp_UpYun",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
-			}
-		},
-		{
-			"key": "PanSearch",
-			"name": "盘Se┃搜索",
 			"type": 3,
 			"api": "csp_PanSearch",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
+				"pan": "quark",
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "Aliso",
+			"name": "盘搜┃阿狸",
+			"type": 3,
+			"api": "csp_PanSearch",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "YiSo",
+			"name": "易搜┃阿狸",
+			"type": 3,
+			"api": "csp_YiSo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "PanSso",
+			"name": "盘他┃三盘",
+			"type": 3,
+			"api": "csp_PanSso",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "YpanSo",
+			"name": "盘她┃三盘",
+			"type": 3,
+			"api": "csp_YpanSo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "xzso",
+			"name": "盘它┃三盘",
+			"type": 3,
+			"api": "csp_xzso",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
 			}
 		},
 		{
 			"key": "push_agent",
-			"name": "手机 | 推送",
+			"name": "🛴推送(阿里/夸克)",
 			"type": 3,
 			"api": "csp_Push",
 			"searchable": 0,
 			"quickSearch": 0,
 			"ext": {
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"Cloud-drive": "http://127.0.0.1:9978/file/TVBox/jar/Cloud-drive.txt",
-				"from": "4k|auto|fhd"
-			}
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			},
+			"jar": "./jar/fm.jar"
 		}
 	],
 	"parses": [
