@@ -6,7 +6,7 @@
 		},
 		{
 			"sourceName": "云星在线仓库",
-			"sourceUrl": "./lib/zx.json"
+			"sourceUrl": "./zx.json"
 		}
 	]
 }
